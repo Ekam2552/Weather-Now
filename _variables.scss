@@ -1,0 +1,26 @@
+// Colors
+$color-primary: #4da8da; // Sky Blue for primary buttons and headers
+$color-primary-dark: #003366; // Midnight Blue for main text
+$color-background: #eaeff2; // Light Gray for app background
+$color-card-bg: #ffffff; // White for cards/containers
+$color-accent: #ff6f59; // Sunset Orange for highlights or warnings
+
+// Font
+$font-primary: 'Roboto', sans-serif;
+$font-size-base: 16px;
+$font-size-small: 0.875rem; // 14px, for small text elements
+$font-size-medium: 1rem; // 16px, for general body text
+$font-size-large: 1.5rem; // 24px, for headers and larger text
+
+// Font Weights
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+// Spacing
+$spacing-small: 0.5rem; // 8px
+$spacing-medium: 1rem; // 16px
+$spacing-large: 2rem; // 32px
+
+// Breakpoints for Mobile-First Approach
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;

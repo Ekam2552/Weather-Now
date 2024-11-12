@@ -1,0 +1,58 @@
+@import 'variables';
+
+body {
+  font-family: $font-primary;
+  font-size: $font-size-medium;
+  color: $color-primary-dark;
+  background-color: $color-background;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+
+  .error {
+    color: $color-accent;
+    text-align: center;
+    font-size: $font-size-medium * 1.5;
+    font-weight: $font-weight-bold;
+    letter-spacing: $spacing-small / 5;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .initalMessage {
+    color: $color-primary-dark;
+    text-align: center;
+    font-size: $font-size-medium * 1.5;
+    font-weight: $font-weight-bold;
+    letter-spacing: $spacing-small / 5;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $breakpoint-tablet) {
+  body {
+    font-size: $font-size-large;
+    max-width: 70%;
+
+    .error,
+    .initalMessage {
+      font-size: $font-size-large * 1.5;
+      letter-spacing: $spacing-small / 3;
+      max-width: 70%;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  body {
+    max-width: 50%;
+
+    .error,
+    .initalMessage {
+      font-size: $font-size-large * 1.2;
+      letter-spacing: $spacing-small / 4;
+      max-width: 70%;
+    }
+  }
+}

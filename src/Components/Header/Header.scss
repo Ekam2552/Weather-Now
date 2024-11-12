@@ -1,0 +1,15 @@
+@import 'variables';
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: $spacing-small / 4;
+  color: $color-primary;
+  font-weight: $font-weight-bold;
+}
+
+@media (min-width: $breakpoint-tablet) {
+  h1 {
+    letter-spacing: $spacing-small / 2;
+  }
+}
